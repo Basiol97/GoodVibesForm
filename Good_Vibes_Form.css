@@ -1,0 +1,83 @@
+/* Selectors */
+body {
+
+  background-color: #ffe6e6;
+}
+
+h1 {
+	text-align: center;
+	margin: 45px auto 45px auto;
+  color: #800000;
+}
+
+option {display: inline-block;}
+
+p {
+
+  font-size: 20px; 
+  text-align: center;
+  color: #660000;
+
+}
+
+h4 {font-size: 1rem;}
+
+/* Classes and IDs */
+
+
+.divContainer {
+  color: black;
+  border-radius: 12px;
+  background-color: lightgray;
+  border-width: 2px;
+  width: 65%;
+  margin: 20px auto 20px auto;
+  border-style: dotted;
+}
+
+
+.aligning {
+
+ text-align: left; 
+ width: 80%;
+
+}
+
+
+.elementSpacing {
+  margin: 2% 3.5%;
+
+}
+
+.verticalSpacing {
+  padding-top: 1%;
+}
+
+
+
+.myButton {
+  box-shadow:inset 0px 1px 0px 0px #efdcfb;
+  background:linear-gradient(to bottom, #dfbdfa 5%, #bc80ea 100%);
+  background-color:#dfbdfa;
+  border-radius:6px;
+  border:1px solid #c584f3;
+  display:inline-block;
+  cursor:pointer;
+  color:#ffffff;
+  font-family:Trebuchet MS;
+  font-size:15px;
+  font-weight:bold;
+  padding:3px 8px;
+  text-decoration:none;
+  text-shadow:0px 1px 0px #9752cc;
+}
+.myButton:hover {
+  background:linear-gradient(to bottom, #bc80ea 5%, #dfbdfa 100%);
+  background-color:#bc80ea;
+}
+.myButton:active {
+  position:relative;
+  top:1px;
+}
+
+
