@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Good Vibes Form</title>
+ <style>
+/* Selectors */
+body {
+
+  background-color: #ffe6e6;
+}
+
+h1 {
+  text-align: center;
+  margin: 45px auto 45px auto;
+  color: #800000;
+}
+
+option {display: inline-block;}
+
+p {
+
+  font-size: 20px; 
+  text-align: center;
+  color: #660000;
+
+}
+
+h4 {font-size: 1rem;}
+
+/* Classes and IDs */
+
+
+.divContainer {
+  color: black;
+  border-radius: 12px;
+  background-color: lightgray;
+  border-width: 2px;
+  width: 65%;
+  margin: 20px auto 20px auto;
+  border-style: dotted;
+}
+
+
+.aligning {
+
+ text-align: left; 
+ width: 80%;
+
+}
+
+
+.elementSpacing {
+  margin: 2% 3.5%;
+
+}
+
+.verticalSpacing {
+  padding-top: 1%;
+}
+
+
+
+.myButton {
+  box-shadow:inset 0px 1px 0px 0px #efdcfb;
+  background:linear-gradient(to bottom, #dfbdfa 5%, #bc80ea 100%);
+  background-color:#dfbdfa;
+  border-radius:6px;
+  border:1px solid #c584f3;
+  display:inline-block;
+  cursor:pointer;
+  color:#ffffff;
+  font-family:Trebuchet MS;
+  font-size:15px;
+  font-weight:bold;
+  padding:3px 8px;
+  text-decoration:none;
+  text-shadow:0px 1px 0px #9752cc;
+}
+.myButton:hover {
+  background:linear-gradient(to bottom, #bc80ea 5%, #dfbdfa 100%);
+  background-color:#bc80ea;
+}
+.myButton:active {
+  position:relative;
+  top:1px;
+}
+
+
+
+</style>
+</head>
+<body>
+
+
+  <h1>Good Vibes Form</h1>
+
+
+  <div class="divContainer">
+
+
+   <p> Tell us something positive that happed to you</p>
+
+   <div class="aligning elementSpacing verticalSpacing">
+     Name: <input type="text" name="Username" placeholder="Enter your name" size="15"> 
+   </div>
+
+   <div
+   class="aligning elementSpacing"> Email: <input type="text" name="email" size="25" placeholder="Enter your Email address"> 
+ </div>
+
+ <div class="btn elementSpacing" > On a scale of 1-10, how good was it? 
+  <button >1</button>
+  <button >2</button>
+  <button >3</button>
+  <button >4</button>
+  <button >5</button>
+  <button >6</button>
+  <button >7</button>
+  <button >8</button>
+  <button >9</button>
+  <button >10</button>
+</div>
+
+
+<div class="elementSpacing">
+  Where did it happen ? 
+
+  <select>
+    <option > At home </option>
+    <option > On my commute </option>
+    <option > At work </option> 
+    <option > Other </option> 
+  </select>
+
+</div>
+
+<div class="elementSpacing verticalSpacing">
+  At what time of day did it happen ? <form  class="verticalSpacing" action="/action_page.php"> 
+   <input type="radio" id="html" name="fav_language" value="HTML">
+   <label for="html">Morning</label><br>
+   <input type="radio" id="css" name="fav_language" value="CSS">
+   <label for="css">Afternoon</label><br>
+   <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+   <label for="javascript">Evening</label><br><br>
+ </form>
+</div>
+
+<div class="elementSpacing ">
+  What emotions did you experience?
+  (Select all that apply) <form  class="verticalSpacing" action="/action_page.php"> 
+   <input type="checkbox" id="html" name="fav_language" value="HTML">
+   <label for="html">Excited</label><br>
+   <input type="checkbox" id="css" name="fav_language" value="CSS">
+   <label for="css">Afternoon</label><br>
+   <input type="checkbox" id="javascript" name="fav_language" value="JavaScript">
+   <label for="javascript">Evening</label><br><br>
+ </form>
+</div>
+
+
+<div class=" elementSpacing">
+  <h4>Comment:</h4>
+  <textarea name = "Comments" rows="4" cols="35" placeholder="Enter your experience here..." ></textarea>
+</div>
+
+
+<div class="elementSpacing"><a href="#" class="myButton">Submit</a></div>
+
+</body>
+</html>
+
